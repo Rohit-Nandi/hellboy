@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Hacker Terminal — Demo C2 UI (Safe Demo)</title>
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://db.onlinewebfonts.com/c/0bae535590ffdc6ffb2cfa45b8fb2ae3?family=PxPlus+IBM+VGA8" rel="stylesheet">
 <style>
   :root{
     --bg:#071013;
@@ -14,7 +14,7 @@
     --glass: rgba(255,255,255,0.03);
     --panel-2:#0a1612;
   }
-  html,body{height:100%;margin:0;font-family:'Source Code Pro', monospace;background:linear-gradient(180deg,#001011 0%,var(--bg) 60%);color:#9fffb1;overflow:hidden;}
+  html,body{height:100%;margin:0;font-family:'PxPlus IBM VGA8', monospace;background:linear-gradient(180deg,#001011 0%,var(--bg) 60%);color:#9fffb1;overflow:hidden;}
   /* hide scrollbars but keep scrolling */
   *::-webkit-scrollbar { display: none; }
   * { scrollbar-width: none; -ms-overflow-style: none; }
@@ -57,7 +57,7 @@
   .filter{display:flex;flex-direction:column;gap:8px}
   .chip{display:inline-block;padding:6px 10px;border-radius:6px;background:transparent;border:1px solid rgba(255,255,255,0.03);font-size:13px;cursor:pointer;color: inherit;}
   .search{display:flex;margin-bottom:10px}
-  .search input{outline:none;flex:1;padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:inherit;font-family:inherit}
+  .search input{outline:none;flex:1;padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:inherit;font-family:PxPlus IBM VGA8}
 
   /* Task Manager style resource area */
   .sys-res{
@@ -112,7 +112,7 @@
   }
   .terminal .line{white-space:pre-wrap}
   .input-row{display:flex;gap:8px;margin-top:10px}
-  .cmd-input{flex:1;padding:10px;border-radius:6px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:inherit;font-family:inherit;outline: none;}
+  .cmd-input{flex:1;padding:10px;border-radius:6px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:inherit;font-family:PxPlus IBM VGA8;outline: none;}
   .run-btn{padding:10px 14px;border-radius:6px;background:transparent;border:1px solid rgba(255,255,255,0.02);cursor:pointer}
 
   /* small panels */
@@ -149,7 +149,7 @@
   }
   .boot-line{font-size:20px;letter-spacing:2px;margin-bottom:18px}
   .boot-prompt{font-size:16px;color:#9fffb1;margin-bottom:12px}
-  .pwd-input{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:10px 12px;border-radius:6px;color:var(--muted);width:100%;font-family:inherit;outline:none}
+  .pwd-input{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:10px 12px;border-radius:6px;color:var(--muted);width:100%;font-family:PxPlus IBM VGA8;outline:none}
   .auth-btn{margin-top:12px;padding:10px 16px;border-radius:6px;background:transparent;border:1px solid rgba(255,255,255,0.06);cursor:pointer;color:inherit}
   .fade-out{animation:fadeOut 700ms ease forwards}
   @keyframes fadeOut{100%{opacity:0;transform:scale(0.98)}}
@@ -522,5 +522,6 @@ let autoAuthTimeout = setTimeout(()=>{
 </script>
 </body>
 </html>
+
 
 
